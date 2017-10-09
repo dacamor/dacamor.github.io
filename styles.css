@@ -1,13 +1,23 @@
+* {
+    font-family: arial;
+}
+
 .article {
     color: black;
 }
-
-body {
+html {
+    overflow: hidden;
     margin:0;
+height: 100%
 }
-
-.WordSection1 {
-    margin:20;
+body {
+    overflow: auto;
+    margin:0;
+height: 100%
+}
+.container{
+    position: relative;
+    min-height: 100%;
 }
 
 .topnav {
@@ -34,3 +44,33 @@ body {
     background-color: #4CAF50;
     color: white;
 }
+
+.main{
+    padding: 10pt;
+    padding-bottom: 4rem;
+
+}
+.WordSection1 {
+    margin-left: 20;
+    margin-top: 20;
+    margin-right: 20;
+    padding-bottom: 6rem;
+}
+
+.footer {
+    position: absolute;
+    opacity: .7;
+    width: 100%;
+    bottom: 0;
+    height: 4rem;
+    text-align: center;
+    background: #999C99;
+    }
+    
+.address {
+    font-size : 16px; 
+    text-align : center; 
+    color: #efefef;
+    padding: 1% 0;
+    text-shadow: 1px 1px 0px #202020
+    }
